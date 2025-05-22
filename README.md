@@ -52,8 +52,12 @@ printf("Size of int: %d", sizeof(a));
 
 ## 3) Questions
 1. What are valid and invalid identifier names in C, and in which stage of the compilation, are these names checked?
-2. What happens if you use a variable before assigning it a value?
-3. Why does dividing two integers give an integer result?
+   Viariable names in C starts with small letter, havent special symbols, snake case is allowed. The names get checked in Parse Stage of compilation.
+3. What happens if you use a variable before assigning it a value?
+   The value of the variable is 0.
+5. Why does dividing two integers give an integer result?
+   because we are saving the value in int variable.
+   
 
 ## 4) Advice
 Use `man printf` to explore format specifiers. Try writing small programs that experiment with assigning values and printing results. Don’t just read — test! Seeing how types behave in practice is much more instructive than memorizing rules.
